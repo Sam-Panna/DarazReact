@@ -6,7 +6,7 @@ import { FiShoppingCart } from "react-icons/fi";
 
 const Navbar = () => {
   return (
-    <div className='border-2 bg-[#F85606] h-[25px] sticky'>
+    <div className='bg-[#F85606]  sticky'>
         <nav  className='text-[12px] text-left text-white'>
             <div>
                 <ul className='  flex gap-10  ml-[45%] '>
