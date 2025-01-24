@@ -4,7 +4,7 @@ import { IoSearch } from "react-icons/io5";
 import { FiShoppingCart } from "react-icons/fi";
 
 
-const Navbar = () => {
+const Navbar = ({img, title,price, discount}) => {
   return (
     <div className='bg-[#F85606]  sticky'>
         <nav  className='text-[12px] text-left text-white'>
@@ -31,6 +31,8 @@ const Navbar = () => {
                <div>
                <FiShoppingCart className='size-7 mt-2'/>
                </div>
+               <div>{title}</div>
+               <div>{img}</div>
                </div>
             </div>
         </nav>

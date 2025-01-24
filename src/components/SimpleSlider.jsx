@@ -10,7 +10,7 @@ export default function SimpleSlider() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings} className="w-[998px] h-[344px]  ">
+    <Slider {...settings} className="w-[998px] h-[344px]">
       <div className=" ">
         <h3><img src="https://img.lazcdn.com/us/lazgcp/c4079160-e8c7-4b2f-bb09-04ad7cd9f45d_BD-1188-400.png_1200x1200q80.png_.webp" alt=""  /></h3>
       </div>
