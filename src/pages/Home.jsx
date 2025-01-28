@@ -2,8 +2,9 @@ import React from 'react'
 import SimpleSlider from '../components/SimpleSlider'
 import DownloadCard from '../components/DownloadCard'
 import FlashSale from '../components/FlashSale'
-import Categories from '../components/Categories'
+import CategoriesProducts from '../components/CategoriesProducts'
 import FlashSaleProducts from '../components/FlashSaleProducts'
+import JustForYouProducts from '../components/JustForYouProducts'
 
 
 const Home = () => {
@@ -16,13 +17,14 @@ const Home = () => {
 
 
    </div>
-   <div>
+   <div className='flex flex-col items-center'>
 
       <FlashSaleProducts/>
-
+    <CategoriesProducts/>
    </div>
-   <div>
-    <Categories/>
+   <div className='flex flex-col items-center'>
+    <JustForYouProducts/>
+
    </div>
     </div>
     

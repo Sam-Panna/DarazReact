@@ -57,10 +57,10 @@ const FlashSaleProducts = () => {
     ]
     
   return (
-    <div className='flex justify-center pt-[24px] w-[1332px] h-[3744.34px] border-2 border-black '>
-    <div className=' h-[437px] w-[1188px]border-2 border-black'>
+    
+    <div className=' h-[437px] w-[1188px]'>
       <div className='w-[1188px] h-[38px] '>
-        <h1 className='text-[22px]'>Flash Sale</h1>
+        <h1 className='text-[22px]  text-[#424242]'>Flash Sale</h1>
 
 
       </div>
@@ -90,7 +90,7 @@ const FlashSaleProducts = () => {
             </div>
              </div>
         </div>
-    </div>
+  
   )
 }
 
